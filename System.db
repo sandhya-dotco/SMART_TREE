@@ -1,0 +1,11 @@
+CREATE DATABASE tree_health_db;
+USE tree_health_db;
+
+CREATE TABLE tree_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    tree_name VARCHAR(100),
+    moisture INT,
+    temperature INT,
+    humidity INT,
+    nutrients VARCHAR(50)
+);
